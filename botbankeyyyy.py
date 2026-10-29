@@ -37,7 +37,7 @@ PAYMENT_BANK_CODE = os.getenv("PAYMENT_BANK_CODE", "VPBank").strip()  # Dùng t�
 # khớp số tài khoản hiển thị cho người nạp và phương thức thanh toán không phải MoMo cá nhân.
 SEPAY_WEBHOOK_API_KEY = os.getenv("SEPAY_WEBHOOK_API_KEY", "0ba87KEVU1jyv6tMFEr-A6pp8ae81GWfym7AZvDXppY").strip()
 SEPAY_ACCOUNT_NUMBER = os.getenv("SEPAY_ACCOUNT_NUMBER", "100933311209").strip()
-MONA_WEBHOOK_SECRET = os.getenv("MONA_WEBHOOK_SECRET", "").strip()
+MONA_WEBHOOK_SECRET = os.getenv("MONA_WEBHOOK_SECRET", "amdck9310nxpsfn04929b-1049bowdj2049").strip()
 MONA_ACCOUNT_NUMBER = os.getenv("MONA_ACCOUNT_NUMBER", PAYMENT_ACCOUNT_NUMBER).strip()
 
 PAYMENT_QR_FILE = None  # Được đặt sau DATA_DIR khởi tạo.
